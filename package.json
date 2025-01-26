@@ -1,0 +1,31 @@
+{
+  "name": "object-key-sort",
+  "version": "0.0.1",
+  "description": "Get your keys sorted.",
+  "keywords": [
+    "javascript",
+    "typescript"
+  ],
+  "homepage": "https://github.com/kevindmorris/object-key-sort#readme",
+  "bugs": {
+    "url": "https://github.com/kevindmorris/object-key-sort/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevindmorris/object-key-sort.git"
+  },
+  "license": "MIT",
+  "author": "Kevin Morris",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@jest/globals": "^29.7.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.7.3"
+  }
+}

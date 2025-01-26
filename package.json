@@ -17,23 +17,22 @@
   "license": "MIT",
   "author": "Kevin Morris",
   "type": "module",
+  "files": [
+    "dist",
+    "package.json"
+  ],
   "exports": {
     ".": {
-      "types": "./dist/index.d.ts",
       "require": "./dist/index.js",
-      "import": "./dist/index.mjs"
+      "import": "./dist/index.mjs",
+      "types": "./dist/index.d.ts"
     }
   },
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
-  "files": [
-    "dist",
-    "package.json",
-    "README.md"
-  ],
   "scripts": {
-    "build": "tsup",
+    "build": "tsup ./src",
     "test": "jest"
   },
   "devDependencies": {

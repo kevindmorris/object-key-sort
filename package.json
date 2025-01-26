@@ -17,20 +17,25 @@
   "license": "MIT",
   "author": "Kevin Morris",
   "type": "module",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "files": [
-    "dist"
-  ],
   "exports": {
     ".": {
       "import": "./dist/index.js",
       "require": "./dist/index.cjs"
     }
   },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsup",
-    "test": "jest"
+    "coverage": "jest --coverage",
+    "publish": "publish --access public",
+    "test": "jest",
+    "version:major": "version major",
+    "version:minor": "version minor",
+    "version:patch": "version patch"
   },
   "devDependencies": {
     "@jest/globals": "^29.7.0",

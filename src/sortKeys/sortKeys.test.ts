@@ -1,5 +1,5 @@
 import { describe, expect, test } from "@jest/globals";
-import { sortKeys } from "./";
+import { sortKeys } from "./sortKeys";
 
 describe("sortKeys", () => {
   test("basic: number value types", () => {

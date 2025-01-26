@@ -1,4 +1,4 @@
-# 🧼 Object Key Sort
+# 🧼 @kevindmorris/object-sort
 
 Get your keys sorted.
 
@@ -7,7 +7,7 @@ Get your keys sorted.
 Using npm:
 
 ```
-npm i object-key-sort
+npm i @kevindmorris/object-sort
 ```
 
 ## Usage
@@ -31,21 +31,21 @@ Sort an object's keys.
 Import:
 
 ```
-import { sortKeys } from "object-sort-keys"
+import { sortKeys } from "@kevindmorris/object-sort"
 
 sortKeys({ c: 3, b: 2, a: 1 });
 // => { a: 1, b: 2, c: 3 }
 ```
 
 ```
-import { sortKeys } from "object-sort-keys"
+import { sortKeys } from "@kevindmorris/object-sort"
 
 sortKeys({ c: 3, b: 2, a: { y: 2, x: 1 } }, { nested: true });
 // => { a: { x: 1, y: 2 }, b: 2, c: 3 }
 ```
 
 ```
-import { sortKeys } from "object-sort-keys"
+import { sortKeys } from "@kevindmorris/object-sort"
 
 sortKeys({ c: 3, b: 2, a: { y: 2, x: 1 } }, { nested: false });
 // => { a: { y: 2, x: 1 }, b: 2, c: 3 }

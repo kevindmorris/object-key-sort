@@ -4,7 +4,10 @@
   "description": "Get your keys sorted.",
   "keywords": [
     "javascript",
-    "typescript"
+    "typescript",
+    "objest",
+    "key",
+    "sort"
   ],
   "homepage": "https://github.com/kevindmorris/object-key-sort#readme",
   "bugs": {
